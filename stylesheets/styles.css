@@ -1,0 +1,32 @@
+/* Aangepaste kleurvariabelen */
+.textprimary{
+    color: 	#0ba08b !important;
+}
+
+.btn-primary{
+    color: #fff !important;
+    background-color: #0ba08b !important;
+    border-color: #0ba08b !important;
+}
+
+.btn-outline-primary{
+    color: #0ba08b !important;
+    border-color: #0ba08b !important;}
+
+.btn-outline-primary:hover{
+    color: #fff !important;
+    background-color: #0ba08b !important;
+    border-color: #0ba08b !important;
+}
+
+.list-ondertitel-size{
+    font-size: 0.875rem;
+}
+
+.list-titel-size{
+    font-size: 1.125rem;
+}
+
+.list-itemdate-size{
+    font-size: 0.75rem;
+}
