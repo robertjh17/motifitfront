@@ -7,6 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/58020e189e.js" crossorigin="anonymous"></script>
+    <script defer src="scripts/js/gdpr.js"></script>
 
 
 </head>
@@ -166,6 +167,38 @@
             </div>
         </div>
     </div>
+</div>
+
+<div class="container">
+
+    <h1 id="content-gpdr-consent-status"></h1>
+
+    <div class="content-gdpr-not-chosen hide">
+        <p>Deze content wordt alleen getoond als gdrp consent niet is gekozen.</p>
+    </div>
+
+    <div class="content-gdpr-accept hide">
+        <p>Deze content wordt alleen getoond als gdrp is geaccepteerd.</p>
+    </div>
+
+    <div class="content-gdpr-reject hide">
+        <p>Deze content wordt alleen getoond als gdrp is verworpen.</p>
+    </div>
+
+    <section class="gdpr-consent hide">
+
+        <div class="gdpr-consent__description">
+            <p>Deze website gebruikt cookies.
+                We gebruiken cookies om content te personaliseren, voor social media en het analyseren
+                van verkeer op de website, advertenties.</p>
+        </div>
+
+        <div class="gdpr-consent__choice">
+            <button class="gdpr-consent__button--accept">Ja, natuurlijk</button>
+            <button class="gdpr-consent__button--reject">Neu, misschien later</button>
+        </div>
+
+    </section>
 </div>
 </body>
 </html>

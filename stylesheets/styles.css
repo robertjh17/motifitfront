@@ -30,3 +30,11 @@
 .list-itemdate-size{
     font-size: 0.75rem;
 }
+
+.hide{
+    display: none !important;
+}
+
+.show{
+    display: block !important;
+}
