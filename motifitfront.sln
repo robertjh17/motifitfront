@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.6.33723.286
+VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "motifitfront", "motifitfront.esproj", "{D72BA89E-A83C-4B14-AD5D-F70F2DF08118}"
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "motifitfront", "motifitfront.esproj", "{4CEB2CA9-1AE5-4CE9-863E-641803E91E50}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,17 +11,17 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D72BA89E-A83C-4B14-AD5D-F70F2DF08118}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D72BA89E-A83C-4B14-AD5D-F70F2DF08118}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D72BA89E-A83C-4B14-AD5D-F70F2DF08118}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{D72BA89E-A83C-4B14-AD5D-F70F2DF08118}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D72BA89E-A83C-4B14-AD5D-F70F2DF08118}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D72BA89E-A83C-4B14-AD5D-F70F2DF08118}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{4CEB2CA9-1AE5-4CE9-863E-641803E91E50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CEB2CA9-1AE5-4CE9-863E-641803E91E50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CEB2CA9-1AE5-4CE9-863E-641803E91E50}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4CEB2CA9-1AE5-4CE9-863E-641803E91E50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CEB2CA9-1AE5-4CE9-863E-641803E91E50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CEB2CA9-1AE5-4CE9-863E-641803E91E50}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {E476C76C-176E-453C-9FA1-E997419B6CA7}
+		SolutionGuid = {8A380F02-3E98-43BB-9782-33F7937DBAFF}
 	EndGlobalSection
 EndGlobal

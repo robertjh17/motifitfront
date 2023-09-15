@@ -10,7 +10,7 @@ export const validateName = (name) => {
     try {
         nameSchema.validateSync(name);
         return '';
-    } catch(error) {
+    } catch (error) {
         return error.message;
     }
 }
@@ -27,25 +27,25 @@ export const validatePhone = (phone) => {
     try {
         phoneSchema.validateSync(phone);
         return '';
-    } catch(error) {
+    } catch (error) {
         return error.message;
     }
 }
 
 export const validateMessage = (message) => {
-try {
+    try {
         messageSchema.validateSync(message);
         return '';
-    } catch(error) {
+    } catch (error) {
         return error.message;
     }
 }
 
 export const validateSubject = (subject) => {
-try {
+    try {
         subjectSchema.validateSync(subject);
         return '';
-    } catch(error) {
+    } catch (error) {
         return error.message;
     }
 }
