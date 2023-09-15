@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "motifitfront", "motifitfront.esproj", "{4CEB2CA9-1AE5-4CE9-863E-641803E91E50}"
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "motifitfront", "motifitfront.esproj", "{CD399982-D72F-41A6-BB6A-03D48A8F1D2C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,17 +11,17 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4CEB2CA9-1AE5-4CE9-863E-641803E91E50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4CEB2CA9-1AE5-4CE9-863E-641803E91E50}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4CEB2CA9-1AE5-4CE9-863E-641803E91E50}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{4CEB2CA9-1AE5-4CE9-863E-641803E91E50}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4CEB2CA9-1AE5-4CE9-863E-641803E91E50}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4CEB2CA9-1AE5-4CE9-863E-641803E91E50}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{CD399982-D72F-41A6-BB6A-03D48A8F1D2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD399982-D72F-41A6-BB6A-03D48A8F1D2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD399982-D72F-41A6-BB6A-03D48A8F1D2C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{CD399982-D72F-41A6-BB6A-03D48A8F1D2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD399982-D72F-41A6-BB6A-03D48A8F1D2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD399982-D72F-41A6-BB6A-03D48A8F1D2C}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {8A380F02-3E98-43BB-9782-33F7937DBAFF}
+		SolutionGuid = {8677117A-114C-4EED-8439-75E93BB7DBF2}
 	EndGlobalSection
 EndGlobal
