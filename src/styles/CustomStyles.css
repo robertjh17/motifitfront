@@ -1,0 +1,36 @@
+.list-ondertitel-size {
+    font-size: 0.875rem;
+}
+
+.list-titel-size {
+    font-size: 1.125rem;
+}
+
+.list-itemdate-size {
+    font-size: 0.75rem;
+}
+
+.profile-image{
+    font-size: 6rem;
+}
+
+.button-icon{
+    font-size: 0.8rem;
+}
+
+.input-style {
+    border-color: #0ba08b !important;
+    border-width: 2px !important;
+}
+
+.input-style:focus {
+    border-color: #0ba08b !important;
+    border: 0 !important;
+    box-shadow: 0 0 0 0.2rem rgba(11, 160, 139, 0.25) !important;
+}
+
+.input-style:active{
+    border-color: #0ba08b !important;
+    border: 0 !important;
+    box-shadow: 0 0 0 0.2rem rgba(11, 160, 139, 0.25) !important;
+}
