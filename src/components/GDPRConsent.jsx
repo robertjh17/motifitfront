@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+import Button from './buttons/Button.jsx';
+import OutlineButton from './buttons/OutlineButton';
 function GDPRConsent() {
     const [showGDPRPopup, setShowGDPRPopup] = useState(true);
 
@@ -22,20 +24,18 @@ function GDPRConsent() {
 
     return (
         showGDPRPopup && (
-            <div className="container bg-white shadow rounded-top">
+            <div className="fixed bottom-0 left-0 right-0 z-50 bg-white p-4 m-4 rounded-lg shadow-lg ">
                 <section>
-                    <div className="row py-2">
-
-                        <div className="col-8 d-flex align-items-center">
-                            <p>Deze website gebruikt cookies.
-                                We gebruiken cookies om content te personaliseren, voor social media en het analyseren
-                                van verkeer op de website, advertenties.</p>
+                    <div className="flex items-center py-2">
+                        <div className="w-8/12">
+                            <p className="text-sm text-gray-700">
+                                Deze website gebruikt cookies. We gebruiken cookies om content te personaliseren, voor social media en het analyseren van verkeer op de website, advertenties.
+                            </p>
                         </div>
-                        <div className="col-4 d-flex align-items-center justify-content-end">
-                            <button type="button" onClick={handleAccept} className="btn btn-primary mx-2">Accepteer</button>
-                            <button type="button" onClick={handleDecline} className="btn btn-outline-primary mx-2">Weiger</button>
+                        <div className="w-4/12 flex justify-end space-x-2">
+                            <Button color="motigreen" text="Accepteer" onClick={handleAccept} />
+                            <OutlineButton color="motigreen" text="Weiger" onClick={handleDecline} />
                         </div>
-
                     </div>
                 </section>
             </div>
