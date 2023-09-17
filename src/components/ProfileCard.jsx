@@ -13,13 +13,7 @@ function ProfileCard({ handleContactForm }) {
             <p className="text-body-secondary">Student HBO-ICT</p>
             <p className="text-body-secondary">Dronten, Nederland</p>
             <div className="flex justify-center mt-2 space-x-2">
-                <button
-                    className={`bg-motigreen-500 hover:bg-motigreen-700  text-white font-bold py-2 px-3 rounded mx-1`}
-                    
-                >
-                    <FontAwesomeIcon icon={ faPlus} className="button-icon mr-1" />
-                    Follow
-                </button>
+                <IconButton color="motigreen" icon={faPlus} text="Follow" />
                 <OutlineButton color="motigreen" text="Contact" onClick={handleContactForm} />
             </div>
         </div>
