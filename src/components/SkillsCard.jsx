@@ -4,6 +4,7 @@ import { faHtml5, faPhp, faJava, faJs } from '@fortawesome/free-brands-svg-icons
 import { faCode } from '@fortawesome/free-solid-svg-icons';
 import 'bootstrap/dist/css/bootstrap.css';
 
+
 function SkillsCard() {
     return (
         <div className="bg-white shadow-md rounded-lg mb-4">

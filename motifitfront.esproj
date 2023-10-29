@@ -10,4 +10,10 @@
     <!-- Folder where production build objects will be placed -->
     <BuildOutputFolder>$(MSBuildProjectDirectory)\dist</BuildOutputFolder>
   </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="cypress\e2e\3-postform\" />
+    <Folder Include="src\components\inputitems\" />
+    <Folder Include="src\components\Home\" />
+    <Folder Include="src\context\" />
+  </ItemGroup>
 </Project>

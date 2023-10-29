@@ -3,10 +3,9 @@ import Input from './Input';
 import { validateEmail, validateName, validatePhone, validateSubject, validateMessage } from '../utils/FormValidation';
 import Button from './buttons/Button';
 import ReCAPTCHA from 'react-google-recaptcha';
+import axios from "axios";
 
 function ContactForm() {
-
-
     const [firstName, setFirstName] = useState('');
     const handleFirstNameChange = (event) => {
         setFirstName(event.target.value);
@@ -35,7 +34,6 @@ function ContactForm() {
     const [isCaptchaVerified, setIsCaptchaVerified] = useState(false);
 
     const handleCaptchaChange = (value) => {
-        // `value` is de reCAPTCHA-reactie
         setIsCaptchaVerified(value ? true : false);
     };
 
@@ -46,15 +44,51 @@ function ContactForm() {
     const [emailError, setEmailError] = useState(null);
     const [phoneError, setPhoneError] = useState(null);
 
-    const validateForm = (event) => {
+    const validateForm = async (event) => {
         event.preventDefault();
 
-        setFirstNameError(validateName(firstName));
-        setLastNameError(validateName(lastName));
-        setEmailError(validateEmail(email));
-        setPhoneError(validatePhone(phoneNumber));
-        setSubjectError(validateSubject(subject));
-        setMessageError(validateMessage(message));
+        try {
+            setFirstNameError(validateName(firstName));
+            setLastNameError(validateName(lastName));
+            setEmailError(validateEmail(email));
+            setPhoneError(validatePhone(phoneNumber));
+            setSubjectError(validateSubject(subject));
+            setMessageError(validateMessage(message));
+            if (
+                firstNameError ||
+                lastNameError ||
+                emailError ||
+                phoneError ||
+                subjectError ||
+                messageError
+            ) {
+                // Er zijn validatiefouten, stel de fouten in en stop hier
+                setFirstNameError(firstNameError);
+                setLastNameError(lastNameError);
+                setEmailError(emailError);
+                setPhoneError(phoneError);
+                setSubjectError(subjectError);
+                setMessageError(messageError);
+                return;
+            }
+
+            const formData = {
+                firstName,
+                lastName,
+                email,
+                phoneNumber,
+                subject,
+                message,
+            };
+
+            axios.post('https://localhost:7017/api/contact', formData)
+            console.log(formData);
+
+
+        } catch (error) {
+            console.error(error);
+        }
+
 
     };
 

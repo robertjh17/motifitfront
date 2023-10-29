@@ -1,6 +1,15 @@
 import React from 'react';
+import PropTypes from 'prop-types'
 
 const Button = ({ color, text, onClick, type }) => {
+    Button.PropTypes = {
+        color: PropTypes.color,
+        text: PropTypes.text,
+        onClick: PropTypes.onClick,
+        type: PropTypes.type
+
+    };
+
     return (
         <button
             className={`

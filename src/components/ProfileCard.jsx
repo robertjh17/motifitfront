@@ -1,9 +1,7 @@
-import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleUser, faPlus } from '@fortawesome/free-solid-svg-icons';
 import OutlineButton from './buttons/OutlineButton';
-import IconButton from './buttons/IconButton';
 
 function ProfileCard({ handleContactForm }) {
     return (
