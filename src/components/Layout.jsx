@@ -11,7 +11,7 @@ function Layout() {
             {isLoggedIn && (
                 <Navbar className="col-span-1" />
             )}
-            <main className={`col-span-${isLoggedIn ? 2 : 3} col-start-${isLoggedIn ? 2 : 1}`}>
+            <main className={`col-span-3 col-start-${isLoggedIn ? 2 : 1}`}>
                 <Outlet />
             </main>
             <Footer />

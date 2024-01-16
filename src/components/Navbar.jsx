@@ -33,10 +33,6 @@ function Navbar() {
                     <FontAwesomeIcon icon={faInfo} className="mr-2" />
                     <span className="hidden absolute top-0 left-full w-24 p-1 text-xs bg-black text-white rounded opacity-0 group-hover:opacity-100 transition-opacity">About</span>
                 </NavLink>
-                <NavLink to="/helpcentrum" className="text-2xl relative group">
-                    <FontAwesomeIcon icon={faQuestionCircle} className="mr-2" />
-                    <span className="hidden absolute top-0 left-full w-24 p-1 text-xs bg-black text-white rounded opacity-0 group-hover:opacity-100 transition-opacity">Help Centrum</span>
-                </NavLink>
                 {isLoggedIn && (
                     <>
                         <NavLink data-cy="addpost" to="/posting" className="text-2xl">

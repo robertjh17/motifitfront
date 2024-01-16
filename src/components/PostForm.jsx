@@ -16,6 +16,7 @@ function PostForm() {
             }
         }).then(response => {
             console.log('Succesvolle POST-aanvraag:', response.data);
+            window.location.href = '/';
         }).catch(error => {
             console.error('Fout bij POST-aanvraag:', error);
         });
